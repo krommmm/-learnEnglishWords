@@ -1,0 +1,43 @@
+.squareIcon {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+    z-index: 10;
+}
+
+.bgGreen {
+    background-color: rgb(16, 132, 68);
+}
+
+a {
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: dragon;
+    src: url("../fonts/Dragon\ FREE.otf");
+}
+
+.btn {
+    background-color: rgb(112, 137, 217);
+    padding: 10px;
+    border-radius: 3px;
+    font-weight: 600;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.btn:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+
+.borderWhite {
+    border: 1px solid white;
+}

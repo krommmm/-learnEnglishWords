@@ -1,0 +1,11 @@
+@import "./miseEnPage.css";
+@import "./utils.css";
+@import "./header.css";
+@import "./nav.css";
+
+@import "./home.css";
+@import "./modals.css";
+@import "./category.css";
+@import "./mediaQueries.css";
+@import "./suivi.css";
+@import "./panier.css";

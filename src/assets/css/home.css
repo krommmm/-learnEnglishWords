@@ -1,0 +1,59 @@
+.home {
+    background-image: url("../pictures/bg/letters_dark_1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 57px;
+    width: 400px;
+}
+
+.home__top {
+    margin-left: 50px;
+}
+
+.home__top__logo p {
+    color: white;
+}
+
+.home__botttom {
+    position: relative;
+}
+
+.home__botttom {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    width: 600px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, .8);
+    padding: 50px;
+    align-self: center;
+    border: 5px solid black;
+}
+
+.home__botttom__league img {
+    float: right;
+    width: 200px;
+}
+
+.home__botttom__league .btn {
+    font-weight: 600;
+    cursor: pointer;
+    /* position: absolute;
+    bottom: 42px;
+    left: 61px; */
+    margin-top: 27px;
+}
+
+.home__botttom a{
+    text-decoration:none;
+    color:inherit;
+}

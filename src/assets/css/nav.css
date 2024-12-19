@@ -1,0 +1,101 @@
+nav {
+    width: 73px;
+    height: 100vh;
+    background-color: rgb(30, 31, 34);
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.nav__iconContainer {
+    margin-bottom: 16px;
+    border-radius:15px;
+    transition-duration:.8s;
+    z-index:10;
+}
+.nav__iconContainer:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border-radius:30px;
+}
+
+.nav__iconContainer img {
+    width: 60px;
+    height: 60px;
+    border-radius:50%;
+}
+
+nav .SeparationOptions {
+    margin-top: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    z-index:0;
+
+}
+
+.bgBlue{
+    background-color: rgb(16, 81, 179);
+}
+
+.bgGreenPal {
+    background-color: rgb(16, 179, 150)
+}
+
+.bgBordeaux {
+    background-color: rgb(179, 16, 81);
+}
+
+.bgCramoisi {
+    background-color: rgb(179, 81, 16);
+}
+
+.bgJaune {
+    background-color: rgb(179, 150, 16); 
+}
+
+nav>div {
+    display: flex;
+    position: relative;
+}
+
+nav a:hover ~ .nav__description{
+    display:flex;
+}
+
+.nav__description {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: -92px;
+    top: 7px;
+    background-color:  rgb(17,18,20);
+    padding: 15px;
+    font-weight: 600;
+    border-radius:5px;
+    display:none;
+    z-index:1;
+}
+
+.nav__description::before {
+    content: '';
+    position: absolute;
+    left: -20px;
+    top: 15px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 20px 10px 0;
+    border-color: transparent rgb(17,18,20) transparent transparent;
+    z-index:0;
+}

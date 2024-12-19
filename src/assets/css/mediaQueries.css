@@ -1,0 +1,127 @@
+@media screen and (max-width:964px) {
+    body .flashCards__left {
+        display: none;
+    }
+
+    body .flashCards__right {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:730px) {
+
+    .home,
+    .options,
+    .suivi,
+    .verbe,
+    .times,
+    .words {
+        padding: 15px;
+    }
+
+    body nav {
+        display: none;
+    }
+
+    body .words__categories {
+        justify-content: center;
+        max-height: 300px;
+        scroll-behavior: auto;
+        overflow-y: scroll;
+    }
+
+    body .words {
+        display: flex;
+        align-items: center;
+    }
+
+    body .flashCards {
+        width: 95%;
+    }
+
+    body .flashcards__right__container {
+        border: none;
+    }
+
+    body .header__right__logoArea p {
+        display: none;
+    }
+
+    body .fa-bars {
+        display: flex;
+        margin-right: 30px;
+        cursor: pointer;
+        font-size: 21px;
+    }
+
+    body .flashCards {
+        padding: 8px;
+    }
+
+
+    body .header__right__profilArea {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    body .nav__iconContainer img {
+        width: 45px;
+        height: 45px;
+    }
+
+    body .header__left {
+        background-color: rgba(0, 0, 0, .5);
+    }
+
+    body .flashCards__right__main {
+        margin: 0px;
+        width: 100%;
+    }
+
+    body .suivi__pictorialFractionChart {
+        position: absolute;
+        top: -74px;
+        right: 0;
+    }
+
+    body .progress-character {
+        transform: scale(0.2);
+    }
+
+    body .suivi__pictorialFractionChart__percentage {
+        top: 142px;
+    }
+}
+
+@media screen and (max-width:632px) {
+    .home__botttom {
+        width: 90%;
+    }
+
+    body .home__top__logo h1 {
+        width: auto;
+        font-size: 41px;
+    }
+}
+
+@media screen and (max-width:532px) {
+    body .home__botttom__league img {
+        /* display: none; */
+    }
+
+    body .modalProfil_contenent {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:480px) {
+   body .suivi__donutsChart {
+        justify-content: center;
+    }
+
+    body .suivi__graphs {
+        align-self: center;
+    }
+}

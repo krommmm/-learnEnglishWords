@@ -1,0 +1,106 @@
+header {
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+
+.header__left {
+    background-color: rgb(30, 31, 34);
+    padding: 10px;
+    width: 73px;
+}
+
+.header__right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+    padding: 10px;
+}
+
+.header__right__logoArea {
+    display: flex;
+    align-items: center;
+}
+
+.header__right__logoArea img {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.header__right__profilArea{
+    z-index: 800;
+}
+
+.header__right__profilArea img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+    padding: 2px;
+    border: 1px solid white;
+    cursor:pointer;
+}
+.header__right__profilArea img:hover{ 
+   background-color:rgb(16, 179, 150);
+}
+
+.fa-igloo {
+    font-size: 22px;
+    border-radius: 15px;
+}
+
+.fa-bars {
+    font-size: 21px;
+    display: none;
+}
+
+
+.navBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    z-index: 99999;
+    animation-name: navBarOpen;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes navBarOpen {
+    0% {
+        top: 0;
+        left: 100%;
+        right: 0;
+        bottom: 0;
+    }
+
+    100% {
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+}
+
+.navBarContainer {
+    min-width: 300px;
+    width: 80%;
+    padding: 15px;
+}
+
+.navBarContainer__header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navBarContainer__header .fa-xmark {
+    cursor: pointer;
+}
